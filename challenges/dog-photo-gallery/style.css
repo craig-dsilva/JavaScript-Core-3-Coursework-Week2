@@ -1,0 +1,17 @@
+.no-bullet {
+  list-style-type: none;
+}
+
+.list-element {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.img {
+  width: 25vw;
+  height: 25vw;
+}
+
+.error-text {
+  color: #f00;
+}
