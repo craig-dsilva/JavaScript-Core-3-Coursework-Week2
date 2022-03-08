@@ -3,6 +3,7 @@ fetch("https://xkcd.now.sh/?comic=latest")
   .then((data) => {
     console.log(data);
     image.src = data.img;
+    img.alt = data.alt;
   })
   .catch((error) => (contentDiv.innerHTML = `<p>${error}</p>`));
 
